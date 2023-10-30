@@ -34,3 +34,22 @@ Go to material properties tab
 add new material 
 ![](/images/settexture2.png)
 
+go to base color and click on the circle
+![](/images/settexture3.png)
+
+select image texture
+![](/images/settexture4.png)
+
+Drop down the image icon, select the image we just loaded 
+![](/images/settexture5.png)
+
+Switch to object mode
+![](/images/settexture6.png)
+
+change shading to material preview, now the texture should be shown in the rendering 
+![](/images/settexture7.png)
+
+export the file as DAE
+![](/images/export.png)
+
+## Gazebo Set Up
