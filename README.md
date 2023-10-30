@@ -1,4 +1,4 @@
-# Gazebo World Tutorial
+# Custom Gazebo World with Textures 
 ## Table of Contents  
 1. [Prepare STL](#Prepare-STL)
 2. [Texture Mapping](#Texture-Mapping)
