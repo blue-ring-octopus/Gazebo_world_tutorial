@@ -1,4 +1,8 @@
 # Gazebo World Tutorial
+## Table of Contents  
+1. [Prepare STL](#Prepare-STL)
+2. [Texture Mapping](#Texture-Mapping)
+
 ## Prepare STL
 Open the workspace model in solidworks. Press "save as". Select ".STL" for "save as type"
 ![saveas](/images/solidworks_saveas.png)
