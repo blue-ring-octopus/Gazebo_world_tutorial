@@ -2,7 +2,7 @@
 ## Table of Contents  
 1. [Prepare STL](#Prepare-STL)
 2. [Texture Mapping](#Texture-Mapping)
-
+3. [Gazebo Setup](#Gazebo-Setup)
 ## Prepare STL
 Open the workspace model in solidworks. Press "save as". Select ".STL" for "save as type"
 ![saveas](/images/solidworks_saveas.png)
@@ -65,4 +65,36 @@ export the file as DAE
 
 ![](/images/export.png)
 
-## Gazebo Set Up
+## Gazebo Setup
+
+Go to the home directory of your ros machine, select show hidden files 
+
+![](/images/gazebo1.png)
+
+Find ".gazebo" folder 
+
+![](/images/gazebo2.png)
+
+Create new folder, name it "models"
+
+![](/images/gazebo3.png)
+
+Put the DAE file and the texture image in the models folder
+
+![](/images/gazebo4.png)
+
+Create a folder named worlds in your package, create the world file in it.
+
+![](/images/gazebo5.png)
+
+point the mesh model and collision model to "model://[MODEL NAME]". the "model://" path is default to the models folder we created earlier. 
+
+![](/images/gazebo6.png)
+
+make a launch file that launch the world we created
+
+![](/images/gazebo7.png)
+
+roslaunch it and the model with texture should be showing up
+
+![](/images/gazebo.png)
